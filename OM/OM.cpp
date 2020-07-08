@@ -810,7 +810,13 @@ void OM::showimage1(QImage *qImage, unsigned int FrameCount, unsigned int LostFr
 		mutex1.lock();
 		ui.label_display1->setPixmap(QPixmap::fromImage(*qImage));
 		ui.label_display1->setPixmap(QPixmap::fromImage(*qImage));
-		
+		//图像保存
+		QTime time;
+		time=QTime::currentTime();
+		QString fileName;
+		fileName = QString("D:\\image\\%1-%2-%3.jpg").arg(time.hour()).arg(time.minute()).arg(time.second());
+
+		qImage->save(fileName);
 		mutex1.unlock();
 	}
 }
