@@ -1,0 +1,2894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OMClass</class>
+ <widget class="QMainWindow" name="OMClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>自动开炉机2020.03.30</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color:rgb(170, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>450</y>
+      <width>461</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>450</y>
+      <width>141</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:5px groove black;
+	border-radius:50px;
+	padding:5px 4px;
+	color:white;
+	font: 57 14pt &quot;Adobe Myungjo Std M&quot;;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:5px groove black;
+	border-radius:50px;
+	padding:5px 4px;
+	font: 57 14pt &quot;Adobe Myungjo Std M&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>手动操作</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_display1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>611</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(198, 180, 60);
+</string>
+    </property>
+    <property name="text">
+     <string>未加载图像</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>540</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>泥炮后坐力：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_HouZuoLi">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>540</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>570</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>水平位置：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_ShuiPing">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>570</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>510</y>
+      <width>71</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>显示图像1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>510</y>
+      <width>71</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>显示图像2</string>
+    </property>
+   </widget>
+   <widget class="QToolBox" name="toolBox">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>10</y>
+      <width>161</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color:rgb(198, 198, 98);
+border:1px groove rgb(255, 100, 100);
+border-radius:5px;</string>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="midLineWidth">
+     <number>0</number>
+    </property>
+    <property name="currentIndex">
+     <number>4</number>
+    </property>
+    <widget class="QWidget" name="page_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>157</width>
+       <height>357</height>
+      </rect>
+     </property>
+     <attribute name="label">
+      <string>整车移动</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButtonRC1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>SimSun-ExtB</family>
+        <pointsize>9</pointsize>
+        <weight>7</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>大电机开</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC13">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>70</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>解除保压</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC13_2">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>30</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>保压</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC1_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>大电机关</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC32">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>110</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>夹爪松</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC31">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>110</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>SimSun-ExtB</family>
+        <pointsize>9</pointsize>
+        <weight>7</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>夹爪紧</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC26_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>190</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>水平左移</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC28">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>190</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>水平右移</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC3">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>150</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>SimSun-ExtB</family>
+        <pointsize>9</pointsize>
+        <weight>7</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>整车前进</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC2">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>230</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>整车后退</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC30">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>310</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>卡死模组</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC7">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>270</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>泥岩马达
+后退</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC29">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>310</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+	font: 57 9pt &quot;SimSun-ExtB&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>松开模组</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC8">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>泥岩马达
+前进</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>157</width>
+       <height>357</height>
+      </rect>
+     </property>
+     <attribute name="label">
+      <string>开孔</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButtonRC4_2">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>30</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>停止旋转</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>凿岩前进</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>凿岩旋转</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC6">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>80</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>凿岩后退</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>157</width>
+       <height>357</height>
+      </rect>
+     </property>
+     <attribute name="label">
+      <string>捅钎/通氧</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButtonRC19">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>马达收钎</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC21">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>60</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>马达松钎</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC22">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>20</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>马达夹钎</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC26">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>140</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>模组后退</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC25">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>100</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>模组前进</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC24">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>180</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>油缸紧</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC17">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>140</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>油缸后退</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC23">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>180</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>油缸松</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC18">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>油缸前进</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC20">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>马达捅钎</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC23_2">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>220</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>掉钎</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC20_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>320</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>油缸往复</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC20_3">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>320</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>停止往复</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>157</width>
+       <height>357</height>
+      </rect>
+     </property>
+     <attribute name="label">
+      <string>堵泥</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButtonRC10">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>20</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>泥炮后退</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC9">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>泥炮前进</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC12">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>70</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>填泥</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonRC11">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>65</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+      </property>
+      <property name="text">
+       <string>挤泥</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>157</width>
+       <height>357</height>
+      </rect>
+     </property>
+     <attribute name="label">
+      <string>自动操作</string>
+     </attribute>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="title">
+         <string>开孔</string>
+        </property>
+        <widget class="QPushButton" name="openPore">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>51</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+         </property>
+         <property name="text">
+          <string>开孔</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="holeStart">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>20</y>
+           <width>51</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+         </property>
+         <property name="text">
+          <string>启动</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="holeStop">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>70</y>
+           <width>101</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+         </property>
+         <property name="text">
+          <string>停止</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>10</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="title">
+         <string>捅钎</string>
+        </property>
+        <widget class="QWidget" name="">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>20</y>
+           <width>131</width>
+           <height>81</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="1" column="1">
+           <widget class="QPushButton" name="steelStop">
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+            </property>
+            <property name="text">
+             <string>停止</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="dropSteel">
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+            </property>
+            <property name="text">
+             <string>落钎</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="steelStart">
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+            </property>
+            <property name="text">
+             <string>启动</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="clipTight">
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+            </property>
+            <property name="text">
+             <string>夹紧</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>10</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	background-color:rgb(52, 52, 52);
+	border:3px groove black;
+	border-radius:5px;
+	color:white;
+}
+QPushButton:pressed
+{
+	background-color:gray;
+	border:3px groove black;
+	border-radius:5px;
+}</string>
+        </property>
+        <property name="title">
+         <string>堵泥</string>
+        </property>
+        <widget class="QPushButton" name="blockMud">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>101</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>堵泥</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="mudStop">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>60</y>
+           <width>101</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>停止</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>10</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="OM.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>OnOpencvStart()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>414</x>
+     <y>462</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>351</x>
+     <y>459</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_11</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>OnOpencvEnd()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>503</x>
+     <y>459</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>539</x>
+     <y>455</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_10</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>showmyRC()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>707</x>
+     <y>523</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>630</x>
+     <y>561</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC1</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay1Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>673</x>
+     <y>82</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>625</x>
+     <y>15</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC1_2</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay1Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>663</x>
+     <y>122</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>626</x>
+     <y>43</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC13</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay13Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>746</x>
+     <y>111</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>625</x>
+     <y>4</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC13_2</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay13Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>738</x>
+     <y>102</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>625</x>
+     <y>71</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC32</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay32Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>668</x>
+     <y>164</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>624</x>
+     <y>102</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC32</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay32Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>676</x>
+     <y>164</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>624</x>
+     <y>131</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC31</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay31Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>759</x>
+     <y>162</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>796</x>
+     <y>11</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC31</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay31Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>743</x>
+     <y>167</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>797</x>
+     <y>42</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC3</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay3Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>721</x>
+     <y>203</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>798</x>
+     <y>72</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC3</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay3Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>705</x>
+     <y>204</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>799</x>
+     <y>100</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC26_2</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay27Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>670</x>
+     <y>239</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>624</x>
+     <y>156</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC26_2</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay27Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>657</x>
+     <y>245</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>624</x>
+     <y>181</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC28</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay28Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>762</x>
+     <y>238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>799</x>
+     <y>128</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC28</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay28Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>743</x>
+     <y>239</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>799</x>
+     <y>156</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC2</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay2Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>712</x>
+     <y>281</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>798</x>
+     <y>186</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC2</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay2Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>725</x>
+     <y>282</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>797</x>
+     <y>212</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC8</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay8Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>673</x>
+     <y>327</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>623</x>
+     <y>212</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC8</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay8Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>661</x>
+     <y>321</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>622</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC7</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay7Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>756</x>
+     <y>319</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>798</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC7</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay7Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>744</x>
+     <y>323</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>797</x>
+     <y>265</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC29</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay29Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>682</x>
+     <y>369</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>622</x>
+     <y>271</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC29</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay29Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>664</x>
+     <y>367</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>623</x>
+     <y>300</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC30</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay30Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>771</x>
+     <y>362</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>798</x>
+     <y>297</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC30</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay30Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>753</x>
+     <y>370</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>798</x>
+     <y>328</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC4</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay4Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>677</x>
+     <y>104</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>498</x>
+     <y>-8</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC4_2</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay4Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>747</x>
+     <y>108</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>723</x>
+     <y>-9</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC6</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay6Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>712</x>
+     <y>178</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>695</x>
+     <y>-1</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC6</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay6Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>712</x>
+     <y>178</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>625</x>
+     <y>340</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC5</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay5Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>706</x>
+     <y>178</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>625</x>
+     <y>369</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC5</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay5Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>706</x>
+     <y>178</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>624</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC19</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay19Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>678</x>
+     <y>184</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>602</x>
+     <y>-17</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC19</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay19Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>692</x>
+     <y>184</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>629</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC20</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay20Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>658</x>
+     <y>144</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>515</x>
+     <y>-3</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC20</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay20Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>672</x>
+     <y>144</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>485</x>
+     <y>5</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC21</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay21Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>759</x>
+     <y>184</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>795</x>
+     <y>360</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC22</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay22Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>735</x>
+     <y>144</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>796</x>
+     <y>392</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC21</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay21Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>742</x>
+     <y>184</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>797</x>
+     <y>424</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC22</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay22Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>751</x>
+     <y>144</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>798</x>
+     <y>452</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC17</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay17Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>692</x>
+     <y>264</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>624</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC17</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay17Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>677</x>
+     <y>264</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>627</x>
+     <y>432</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC18</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay18Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>666</x>
+     <y>224</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>371</x>
+     <y>7</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC18</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay18Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>684</x>
+     <y>224</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>356</x>
+     <y>-4</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC25</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay25Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>762</x>
+     <y>206</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>798</x>
+     <y>483</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC25</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay25Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>750</x>
+     <y>204</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>798</x>
+     <y>509</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC26</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay26Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>746</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>798</x>
+     <y>541</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC26</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay26Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>732</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>797</x>
+     <y>567</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC23</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay23Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>712</x>
+     <y>304</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>627</x>
+     <y>462</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC23</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay23Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>712</x>
+     <y>304</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>627</x>
+     <y>488</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC24</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay24Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>706</x>
+     <y>304</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>716</x>
+     <y>520</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC24</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay24Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>706</x>
+     <y>304</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>720</x>
+     <y>506</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC23_2</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay14Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>716</x>
+     <y>333</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>714</x>
+     <y>549</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC23_2</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay14Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>728</x>
+     <y>324</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>714</x>
+     <y>578</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC9</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay9Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>671</x>
+     <y>157</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>475</x>
+     <y>454</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC9</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay9Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>680</x>
+     <y>155</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>475</x>
+     <y>480</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC10</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay10Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>739</x>
+     <y>154</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>475</x>
+     <y>510</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC10</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay10Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>751</x>
+     <y>153</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>475</x>
+     <y>538</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC11</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay11Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>659</x>
+     <y>202</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>475</x>
+     <y>565</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC11</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay11Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>684</x>
+     <y>204</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>471</x>
+     <y>446</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC12</sender>
+   <signal>pressed()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay12Pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>731</x>
+     <y>202</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>355</x>
+     <y>447</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC12</sender>
+   <signal>released()</signal>
+   <receiver>OMClass</receiver>
+   <slot>Relay12Released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>758</x>
+     <y>205</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>250</x>
+     <y>447</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>toolBox</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>OMClass</receiver>
+   <slot>getChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>707</x>
+     <y>18</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>335</x>
+     <y>446</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC20_2</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>WFStart()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>687</x>
+     <y>427</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>625</x>
+     <y>378</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonRC20_3</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>WFStop()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>757</x>
+     <y>423</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>625</x>
+     <y>300</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>openPore</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>OpenPore()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>672</x>
+     <y>181</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>369</x>
+     <y>446</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>holeStart</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>StartHole()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>726</x>
+     <y>184</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>474</x>
+     <y>441</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>holeStop</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>StopHole()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>688</x>
+     <y>215</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>626</x>
+     <y>454</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dropSteel</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>DropSteel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>667</x>
+     <y>273</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>696</x>
+     <y>565</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>clipTight</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>ClipSteel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>727</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>638</x>
+     <y>502</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>steelStart</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>StartSteel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>667</x>
+     <y>303</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>steelStop</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>StopSteel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>727</x>
+     <y>303</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>blockMud</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>BlockMud()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>363</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mudStop</sender>
+   <signal>clicked()</signal>
+   <receiver>OMClass</receiver>
+   <slot>StopMud()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>393</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>showmyRC()</slot>
+  <slot>zaoyan()</slot>
+  <slot>tongqian()</slot>
+  <slot>nipao()</slot>
+  <slot>tongyang()</slot>
+  <slot>zaoyanTZ()</slot>
+  <slot>tongqianTZ()</slot>
+  <slot>tongyangTZ()</slot>
+  <slot>nipaoTZ()</slot>
+  <slot>OnOpencvStart()</slot>
+  <slot>OnOpencvEnd()</slot>
+  <slot>Relay1Pressed()</slot>
+  <slot>Relay1Released()</slot>
+  <slot>Relay2Pressed()</slot>
+  <slot>Relay2Released()</slot>
+  <slot>Relay3Pressed()</slot>
+  <slot>Relay3Released()</slot>
+  <slot>Relay4Pressed()</slot>
+  <slot>Relay4Released()</slot>
+  <slot>Relay5Pressed()</slot>
+  <slot>Relay5Released()</slot>
+  <slot>Relay6Pressed()</slot>
+  <slot>Relay6Released()</slot>
+  <slot>Relay7Pressed()</slot>
+  <slot>Relay7Released()</slot>
+  <slot>Relay8Pressed()</slot>
+  <slot>Relay8Released()</slot>
+  <slot>Relay9Pressed()</slot>
+  <slot>Relay9Released()</slot>
+  <slot>Relay10Pressed()</slot>
+  <slot>Relay10Released()</slot>
+  <slot>Relay11Pressed()</slot>
+  <slot>Relay11Released()</slot>
+  <slot>Relay12Pressed()</slot>
+  <slot>Relay12Released()</slot>
+  <slot>Relay13Pressed()</slot>
+  <slot>Relay13Released()</slot>
+  <slot>Relay14Pressed()</slot>
+  <slot>Relay14Released()</slot>
+  <slot>Relay15Pressed()</slot>
+  <slot>Relay15Released()</slot>
+  <slot>Relay16Pressed()</slot>
+  <slot>Relay16Released()</slot>
+  <slot>Relay17Pressed()</slot>
+  <slot>Relay17Released()</slot>
+  <slot>Relay18Pressed()</slot>
+  <slot>Relay18Released()</slot>
+  <slot>Relay19Pressed()</slot>
+  <slot>Relay19Released()</slot>
+  <slot>Relay20Pressed()</slot>
+  <slot>Relay20Released()</slot>
+  <slot>Relay21Pressed()</slot>
+  <slot>Relay21Released()</slot>
+  <slot>Relay22Pressed()</slot>
+  <slot>Relay22Released()</slot>
+  <slot>Relay23Pressed()</slot>
+  <slot>Relay23Released()</slot>
+  <slot>Relay24Pressed()</slot>
+  <slot>Relay24Released()</slot>
+  <slot>Relay25Pressed()</slot>
+  <slot>Relay25Released()</slot>
+  <slot>Relay26Pressed()</slot>
+  <slot>Relay26Released()</slot>
+  <slot>Relay27Pressed()</slot>
+  <slot>Relay27Released()</slot>
+  <slot>Relay28Pressed()</slot>
+  <slot>Relay28Released()</slot>
+  <slot>Relay29Pressed()</slot>
+  <slot>Relay29Released()</slot>
+  <slot>Relay30Pressed()</slot>
+  <slot>Relay30Released()</slot>
+  <slot>Relay31Pressed()</slot>
+  <slot>Relay31Released()</slot>
+  <slot>Relay32Pressed()</slot>
+  <slot>Relay32Released()</slot>
+  <slot>getChanged(int)</slot>
+  <slot>WFStart()</slot>
+  <slot>WFStop()</slot>
+  <slot>OpenPore()</slot>
+  <slot>StartHole()</slot>
+  <slot>StopHole()</slot>
+  <slot>DropSteel()</slot>
+  <slot>ClipSteel()</slot>
+  <slot>StartSteel()</slot>
+  <slot>StopSteel()</slot>
+  <slot>BlockMud()</slot>
+  <slot>StopMud()</slot>
+ </slots>
+</ui>

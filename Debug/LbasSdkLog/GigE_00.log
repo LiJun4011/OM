@@ -1,0 +1,1031 @@
+[2020-06-22 14:18:14:0977] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:18:14:0977] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:18:14:0978] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[59932], devIP[c0a84809]
+[2020-06-22 14:18:15:0478] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:15:0979] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:15:0979] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:18:15:0979] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:18:16:0480] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:16:0980] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:16:0980] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[59932], HostIp[c0a8017f], HostPort[59932]
+[2020-06-22 14:18:16:0980] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:18:16:0980] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:18:16:0980] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:18:17:0480] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:19:0341] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:18:19:0341] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:18:19:0342] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[51615], devIP[c0a84809]
+[2020-06-22 14:18:19:0843] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:20:0343] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:20:0343] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:18:20:0343] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:18:20:0844] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:21:0345] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:21:0345] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[51615], HostIp[c0a8017f], HostPort[51615]
+[2020-06-22 14:18:21:0345] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:18:21:0345] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:18:21:0345] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:18:21:0845] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:23:0694] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:18:23:0694] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:18:23:0694] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[63226], devIP[c0a84809]
+[2020-06-22 14:18:24:0195] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:24:0696] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:24:0696] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:18:24:0696] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:18:25:0196] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:25:0697] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:25:0697] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[63226], HostIp[c0a8017f], HostPort[63226]
+[2020-06-22 14:18:25:0697] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:18:25:0697] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:18:25:0697] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:18:26:0198] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:28:0045] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:18:28:0045] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:18:28:0046] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[63353], devIP[c0a84809]
+[2020-06-22 14:18:28:0547] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:29:0047] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:29:0047] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:18:29:0047] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:18:29:0548] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:30:0049] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:30:0049] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[63353], HostIp[c0a8017f], HostPort[63353]
+[2020-06-22 14:18:30:0049] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:18:30:0049] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:18:30:0049] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:18:30:0549] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:32:0416] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:18:32:0416] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:18:32:0417] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[63474], devIP[c0a84809]
+[2020-06-22 14:18:32:0917] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:33:0417] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:33:0417] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:18:33:0417] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:18:33:0918] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:34:0419] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:34:0419] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[63474], HostIp[c0a8017f], HostPort[63474]
+[2020-06-22 14:18:34:0419] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:18:34:0419] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:18:34:0419] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:18:34:0919] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:36:0771] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:18:36:0771] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:18:36:0771] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[50265], devIP[c0a84809]
+[2020-06-22 14:18:37:0272] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:37:0773] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:37:0773] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:18:37:0773] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:18:38:0273] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:38:0774] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:38:0774] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[50265], HostIp[c0a8017f], HostPort[50265]
+[2020-06-22 14:18:38:0774] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:18:38:0774] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:18:38:0774] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:18:39:0275] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:41:0137] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:18:41:0137] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:18:41:0138] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[59709], devIP[c0a84809]
+[2020-06-22 14:18:41:0639] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:42:0140] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:42:0140] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:18:42:0140] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:18:42:0640] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:43:0141] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:43:0141] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[59709], HostIp[c0a8017f], HostPort[59709]
+[2020-06-22 14:18:43:0141] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:18:43:0141] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:18:43:0141] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:18:43:0641] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:45:0492] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:18:45:0492] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:18:45:0493] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[59845], devIP[c0a84809]
+[2020-06-22 14:18:45:0994] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:46:0494] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:46:0494] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:18:46:0494] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:18:46:0995] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:47:0495] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:47:0495] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[59845], HostIp[c0a8017f], HostPort[59845]
+[2020-06-22 14:18:47:0495] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:18:47:0495] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:18:47:0495] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:18:47:0995] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:49:0863] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:18:49:0863] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:18:49:0864] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[59984], devIP[c0a84809]
+[2020-06-22 14:18:50:0365] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:50:0866] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:50:0866] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:18:50:0866] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:18:51:0367] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:51:0867] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:51:0867] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[59984], HostIp[c0a8017f], HostPort[59984]
+[2020-06-22 14:18:51:0867] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:18:51:0867] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:18:51:0867] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:18:52:0367] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:54:0215] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:18:54:0215] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:18:54:0215] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[60119], devIP[c0a84809]
+[2020-06-22 14:18:54:0716] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:55:0217] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:55:0217] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:18:55:0217] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:18:55:0717] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:56:0217] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:56:0217] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[60119], HostIp[c0a8017f], HostPort[60119]
+[2020-06-22 14:18:56:0217] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:18:56:0217] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:18:56:0217] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:18:56:0718] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:58:0577] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:18:58:0577] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:18:58:0578] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[60240], devIP[c0a84809]
+[2020-06-22 14:18:59:0078] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:59:0579] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:18:59:0579] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:18:59:0579] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:19:00:0080] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:00:0580] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:00:0580] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[60240], HostIp[c0a8017f], HostPort[60240]
+[2020-06-22 14:19:00:0580] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:19:00:0580] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:19:00:0580] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:19:01:0081] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:02:0924] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:19:02:0924] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:19:02:0924] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[57969], devIP[c0a84809]
+[2020-06-22 14:19:03:0425] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:03:0925] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:03:0925] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:19:03:0925] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:19:04:0426] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:04:0927] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:04:0927] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[57969], HostIp[c0a8017f], HostPort[57969]
+[2020-06-22 14:19:04:0927] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:19:04:0927] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:19:04:0927] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:19:05:0427] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:07:0282] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:19:07:0282] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:19:07:0283] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[58086], devIP[c0a84809]
+[2020-06-22 14:19:07:0783] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:08:0284] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:08:0284] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:19:08:0284] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:19:08:0785] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:09:0286] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:09:0286] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[58086], HostIp[c0a8017f], HostPort[58086]
+[2020-06-22 14:19:09:0286] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:19:09:0286] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:19:09:0286] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:19:09:0786] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:11:0632] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:19:11:0632] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:19:11:0632] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[58252], devIP[c0a84809]
+[2020-06-22 14:19:12:0132] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:12:0633] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:12:0633] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:19:12:0633] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:19:13:0134] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:13:0635] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:13:0635] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[58252], HostIp[c0a8017f], HostPort[58252]
+[2020-06-22 14:19:13:0635] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:19:13:0635] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:19:13:0635] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:19:14:0135] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:15:0983] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:19:15:0983] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:19:15:0983] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[58403], devIP[c0a84809]
+[2020-06-22 14:19:16:0485] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:16:0985] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:16:0985] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:19:16:0985] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:19:17:0486] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:17:0987] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:17:0987] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[58403], HostIp[c0a8017f], HostPort[58403]
+[2020-06-22 14:19:17:0987] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:19:17:0987] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:19:17:0987] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:19:18:0487] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:20:0338] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:19:20:0338] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:19:20:0338] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[58499], devIP[c0a84809]
+[2020-06-22 14:19:20:0839] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:21:0339] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:21:0339] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:19:21:0339] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:19:21:0840] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:22:0341] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:22:0341] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[58499], HostIp[c0a8017f], HostPort[58499]
+[2020-06-22 14:19:22:0341] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:19:22:0341] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:19:22:0341] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:19:22:0841] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:24:0692] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:19:24:0692] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:19:24:0692] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[52753], devIP[c0a84809]
+[2020-06-22 14:19:25:0194] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:25:0694] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:25:0694] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:19:25:0694] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:19:26:0195] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:26:0696] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:26:0696] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[52753], HostIp[c0a8017f], HostPort[52753]
+[2020-06-22 14:19:26:0696] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:19:26:0696] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:19:26:0696] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:19:27:0196] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:29:0073] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:19:29:0074] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:19:29:0074] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[52896], devIP[c0a84809]
+[2020-06-22 14:19:29:0574] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:30:0075] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:30:0075] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:19:30:0075] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:19:30:0576] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:31:0076] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:31:0076] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[52896], HostIp[c0a8017f], HostPort[52896]
+[2020-06-22 14:19:31:0076] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:19:31:0076] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:19:31:0076] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:19:31:0577] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:33:0430] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:19:33:0430] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:19:33:0430] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[62289], devIP[c0a84809]
+[2020-06-22 14:19:33:0931] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:34:0431] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:34:0431] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:19:34:0431] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:19:34:0932] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:35:0432] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:35:0432] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[62289], HostIp[c0a8017f], HostPort[62289]
+[2020-06-22 14:19:35:0432] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:19:35:0432] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:19:35:0432] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:19:35:0933] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:37:0781] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:19:37:0781] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:19:37:0782] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[62431], devIP[c0a84809]
+[2020-06-22 14:19:38:0283] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:38:0783] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:38:0783] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:19:38:0783] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:19:39:0284] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:39:0784] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:39:0784] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[62431], HostIp[c0a8017f], HostPort[62431]
+[2020-06-22 14:19:39:0784] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:19:39:0784] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:19:39:0784] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:19:40:0284] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:42:0181] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:19:42:0181] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:19:42:0182] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[62561], devIP[c0a84809]
+[2020-06-22 14:19:42:0683] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:43:0184] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:43:0184] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:19:43:0184] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:19:43:0685] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:44:0185] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:44:0185] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[62561], HostIp[c0a8017f], HostPort[62561]
+[2020-06-22 14:19:44:0185] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:19:44:0185] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:19:44:0185] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:19:44:0685] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:46:0531] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:19:46:0531] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:19:46:0531] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[62718], devIP[c0a84809]
+[2020-06-22 14:19:47:0031] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:47:0532] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:47:0532] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:19:47:0532] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:19:48:0032] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:48:0532] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:19:48:0532] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[62718], HostIp[c0a8017f], HostPort[62718]
+[2020-06-22 14:19:48:0532] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:19:48:0532] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:19:48:0532] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:19:49:0033] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:24:55:0683] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:24:55:0683] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:24:55:0684] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[60261], devIP[c0a84809]
+[2020-06-22 14:24:56:0184] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:24:56:0685] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:24:56:0685] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:24:56:0685] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:24:57:0186] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:24:57:0687] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:24:57:0687] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[60261], HostIp[c0a8017f], HostPort[60261]
+[2020-06-22 14:24:57:0687] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:24:57:0687] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:24:57:0687] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:24:58:0187] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:00:0039] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:25:00:0039] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:25:00:0039] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[62199], devIP[c0a84809]
+[2020-06-22 14:25:00:0540] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:01:0041] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:01:0041] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:25:01:0041] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:25:01:0541] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:02:0042] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:02:0042] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[62199], HostIp[c0a8017f], HostPort[62199]
+[2020-06-22 14:25:02:0042] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:25:02:0042] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:25:02:0042] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:25:02:0543] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:04:0395] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:25:04:0395] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:25:04:0395] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[56919], devIP[c0a84809]
+[2020-06-22 14:25:04:0897] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:05:0397] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:05:0397] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:25:05:0397] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:25:05:0898] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:06:0398] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:06:0398] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[56919], HostIp[c0a8017f], HostPort[56919]
+[2020-06-22 14:25:06:0398] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:25:06:0398] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:25:06:0398] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:25:06:0899] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:08:0750] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:25:08:0750] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:25:08:0751] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[65500], devIP[c0a84809]
+[2020-06-22 14:25:09:0252] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:09:0753] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:09:0753] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:25:09:0753] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:25:10:0254] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:10:0754] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:10:0754] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[65500], HostIp[c0a8017f], HostPort[65500]
+[2020-06-22 14:25:10:0754] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:25:10:0754] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:25:10:0754] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:25:11:0255] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:13:0102] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:25:13:0102] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:25:13:0103] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[60746], devIP[c0a84809]
+[2020-06-22 14:25:13:0603] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:14:0103] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:14:0103] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:25:14:0103] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:25:14:0604] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:15:0104] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:15:0104] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[60746], HostIp[c0a8017f], HostPort[60746]
+[2020-06-22 14:25:15:0104] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:25:15:0104] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:25:15:0104] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:25:15:0605] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:19:0657] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:25:19:0657] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:25:19:0657] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[52685], devIP[c0a84809]
+[2020-06-22 14:25:20:0159] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:20:0659] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:20:0659] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:25:21:0017] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:25:21:0517] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:22:0018] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:22:0018] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[52685], HostIp[c0a8017f], HostPort[52685]
+[2020-06-22 14:25:22:0018] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:25:22:0019] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:25:22:0019] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:25:22:0519] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:24:0376] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:25:24:0376] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:25:24:0377] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[53566], devIP[c0a84809]
+[2020-06-22 14:25:24:0878] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:25:0378] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:25:0378] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:25:25:0379] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:25:25:0880] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:26:0381] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:26:0381] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[53566], HostIp[c0a8017f], HostPort[53566]
+[2020-06-22 14:25:26:0381] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:25:26:0383] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:25:26:0383] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:25:26:0883] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:28:0736] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:25:28:0736] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:25:28:0736] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[53597], devIP[c0a84809]
+[2020-06-22 14:25:29:0238] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:29:0740] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:29:0740] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:25:29:0741] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:25:30:0241] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:30:0741] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:30:0741] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[53597], HostIp[c0a8017f], HostPort[53597]
+[2020-06-22 14:25:30:0741] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:25:30:0742] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:25:30:0742] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:25:31:0243] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:33:0089] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:25:33:0089] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:25:33:0089] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[53261], devIP[c0a84809]
+[2020-06-22 14:25:33:0590] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:34:0090] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:34:0090] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:25:34:0092] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:25:34:0592] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:35:0092] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:25:35:0092] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[53261], HostIp[c0a8017f], HostPort[53261]
+[2020-06-22 14:25:35:0092] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:25:35:0095] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:25:35:0095] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:25:35:0595] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:18:0130] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:26:18:0130] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:26:18:0130] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[58089], devIP[c0a84809]
+[2020-06-22 14:26:18:0632] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:19:0133] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:19:0133] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:26:19:0133] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:26:19:0633] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:20:0134] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:20:0134] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[58089], HostIp[c0a8017f], HostPort[58089]
+[2020-06-22 14:26:20:0134] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:26:20:0134] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:26:20:0134] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:26:20:0634] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:22:0486] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:26:22:0486] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:26:22:0486] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[58121], devIP[c0a84809]
+[2020-06-22 14:26:22:0987] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:23:0487] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:23:0487] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:26:23:0487] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:26:23:0988] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:24:0488] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:24:0488] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[58121], HostIp[c0a8017f], HostPort[58121]
+[2020-06-22 14:26:24:0488] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:26:24:0488] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:26:24:0488] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:26:24:0989] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:26:0279] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:26:26:0279] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:26:26:0280] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[58154], devIP[c0a84809]
+[2020-06-22 14:26:26:0781] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:26:0873] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:26:26:0873] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:26:26:0873] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[58166], devIP[c0a84809]
+[2020-06-22 14:26:27:0281] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:27:0281] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:26:27:0281] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:26:27:0374] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:27:0781] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:27:0875] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:27:0875] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:26:27:0875] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:26:28:0282] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:28:0282] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[58154], HostIp[c0a8017f], HostPort[58154]
+[2020-06-22 14:26:28:0282] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:26:28:0282] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:26:28:0282] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:26:28:0375] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:28:0782] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:28:0876] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:28:0876] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[58166], HostIp[c0a8017f], HostPort[58166]
+[2020-06-22 14:26:28:0876] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:26:28:0876] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:26:28:0876] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:26:29:0377] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:30:0622] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:26:30:0622] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:26:30:0623] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[58210], devIP[c0a84809]
+[2020-06-22 14:26:31:0124] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:31:0231] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:26:31:0231] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:26:31:0232] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[58228], devIP[c0a84809]
+[2020-06-22 14:26:31:0624] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:31:0624] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:26:31:0624] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:26:31:0732] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:32:0125] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:32:0232] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:32:0232] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:26:32:0232] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:26:32:0625] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:32:0625] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[58210], HostIp[c0a8017f], HostPort[58210]
+[2020-06-22 14:26:32:0625] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:26:32:0625] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:26:32:0625] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:26:32:0733] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:33:0126] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:33:0234] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:33:0234] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[58228], HostIp[c0a8017f], HostPort[58228]
+[2020-06-22 14:26:33:0234] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:26:33:0234] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:26:33:0234] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:26:33:0735] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:34:0235] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:34:0968] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:26:34:0968] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:26:34:0969] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[58249], devIP[c0a84809]
+[2020-06-22 14:26:35:0470] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:35:0590] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:26:35:0590] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:26:35:0590] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[58256], devIP[c0a84809]
+[2020-06-22 14:26:35:0971] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:35:0971] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:26:35:0971] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:26:36:0090] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:36:0471] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:36:0591] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:36:0591] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:26:36:0591] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:26:36:0972] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:36:0972] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[58249], HostIp[c0a8017f], HostPort[58249]
+[2020-06-22 14:26:36:0972] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:26:36:0972] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:26:36:0972] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:26:37:0092] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:37:0473] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:37:0592] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:37:0592] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[58256], HostIp[c0a8017f], HostPort[58256]
+[2020-06-22 14:26:37:0592] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:26:37:0592] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:26:37:0592] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:26:38:0092] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:39:0310] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:26:39:0310] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:26:39:0310] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[61415], devIP[c0a84809]
+[2020-06-22 14:26:39:0811] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:39:0938] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:26:39:0938] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:26:39:0938] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[61438], devIP[c0a84809]
+[2020-06-22 14:26:40:0311] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:40:0311] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:26:40:0311] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:26:40:0439] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:40:0811] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:40:0939] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:40:0939] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:26:40:0939] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:26:41:0311] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:41:0311] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[61415], HostIp[c0a8017f], HostPort[61415]
+[2020-06-22 14:26:41:0311] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:26:41:0311] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:26:41:0311] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:26:41:0439] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:41:0812] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:41:0940] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:41:0940] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[61438], HostIp[c0a8017f], HostPort[61438]
+[2020-06-22 14:26:41:0940] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:26:41:0940] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:26:41:0940] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:26:42:0441] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:43:0651] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:26:43:0651] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:26:43:0651] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[61460], devIP[c0a84809]
+[2020-06-22 14:26:44:0152] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:44:0288] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:26:44:0288] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:26:44:0288] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[50979], devIP[c0a84809]
+[2020-06-22 14:26:44:0652] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:44:0652] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:26:44:0652] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:26:44:0790] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:45:0154] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:45:0291] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:45:0291] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:26:45:0291] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:26:45:0654] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:45:0654] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[61460], HostIp[c0a8017f], HostPort[61460]
+[2020-06-22 14:26:45:0654] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:26:45:0654] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:26:45:0654] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:26:45:0791] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:46:0154] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:46:0292] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:46:0292] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[50979], HostIp[c0a8017f], HostPort[50979]
+[2020-06-22 14:26:46:0292] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:26:46:0292] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:26:46:0292] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:26:46:0793] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:47:0993] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:26:47:0993] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:26:47:0993] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[55022], devIP[c0a84809]
+[2020-06-22 14:26:48:0495] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:48:0644] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:26:48:0644] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:26:48:0645] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[55042], devIP[c0a84809]
+[2020-06-22 14:26:48:0996] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:48:0996] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:26:48:0996] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:26:49:0145] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:49:0496] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:49:0646] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:49:0646] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:26:49:0646] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:26:49:0997] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:49:0997] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[55022], HostIp[c0a8017f], HostPort[55022]
+[2020-06-22 14:26:49:0997] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:26:49:0997] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:26:49:0997] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:26:50:0146] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:50:0497] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:50:0647] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:50:0647] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[55042], HostIp[c0a8017f], HostPort[55042]
+[2020-06-22 14:26:50:0647] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:26:50:0647] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:26:50:0647] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:26:51:0147] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:52:0342] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:26:52:0342] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:26:52:0343] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[55076], devIP[c0a84809]
+[2020-06-22 14:26:52:0844] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:53:0000] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:26:53:0000] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:26:53:0000] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[55095], devIP[c0a84809]
+[2020-06-22 14:26:53:0344] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:53:0344] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:26:53:0344] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:26:53:0500] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:53:0844] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:54:0001] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:54:0001] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:26:54:0001] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:26:54:0344] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:54:0344] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[55076], HostIp[c0a8017f], HostPort[55076]
+[2020-06-22 14:26:54:0344] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:26:54:0344] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:26:54:0344] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:26:54:0501] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:54:0845] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:55:0001] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:55:0001] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[55095], HostIp[c0a8017f], HostPort[55095]
+[2020-06-22 14:26:55:0001] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:26:55:0001] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:26:55:0001] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:26:55:0502] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:56:0693] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:26:56:0693] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:26:56:0693] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[55134], devIP[c0a84809]
+[2020-06-22 14:26:57:0193] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:57:0347] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:26:57:0347] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:26:57:0347] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[55153], devIP[c0a84809]
+[2020-06-22 14:26:57:0694] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:57:0694] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:26:57:0694] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:26:57:0849] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:58:0195] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:58:0350] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:58:0350] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:26:58:0350] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:26:58:0695] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:58:0695] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[55134], HostIp[c0a8017f], HostPort[55134]
+[2020-06-22 14:26:58:0695] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:26:58:0695] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:26:58:0695] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:26:58:0850] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:59:0196] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:59:0351] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:26:59:0351] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[55153], HostIp[c0a8017f], HostPort[55153]
+[2020-06-22 14:26:59:0351] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:26:59:0351] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:26:59:0351] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:26:59:0851] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:01:0053] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:27:01:0053] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:27:01:0053] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[61840], devIP[c0a84809]
+[2020-06-22 14:27:01:0554] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:01:0722] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:27:01:0722] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:27:01:0723] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[61858], devIP[c0a84809]
+[2020-06-22 14:27:02:0054] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:02:0054] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:27:02:0054] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:27:02:0224] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:02:0554] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:02:0724] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:02:0724] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:27:02:0724] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:27:03:0054] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:03:0054] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[61840], HostIp[c0a8017f], HostPort[61840]
+[2020-06-22 14:27:03:0054] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:27:03:0054] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:27:03:0054] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:27:03:0226] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:03:0555] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:03:0726] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:03:0726] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[61858], HostIp[c0a8017f], HostPort[61858]
+[2020-06-22 14:27:03:0726] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:27:03:0726] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:27:03:0726] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:27:04:0226] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:05:0396] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:27:05:0396] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:27:05:0396] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[61896], devIP[c0a84809]
+[2020-06-22 14:27:05:0898] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:06:0075] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:27:06:0075] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:27:06:0075] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[61921], devIP[c0a84809]
+[2020-06-22 14:27:06:0398] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:06:0398] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:27:06:0398] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:27:06:0575] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:06:0899] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:07:0075] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:07:0075] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:27:07:0075] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:27:07:0399] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:07:0399] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[61896], HostIp[c0a8017f], HostPort[61896]
+[2020-06-22 14:27:07:0399] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:27:07:0399] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:27:07:0399] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:27:07:0575] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:07:0899] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:08:0075] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:08:0075] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[61921], HostIp[c0a8017f], HostPort[61921]
+[2020-06-22 14:27:08:0075] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:27:08:0075] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:27:08:0075] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:27:08:0576] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:10:0428] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:27:10:0428] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:27:10:0428] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[61946], devIP[c0a84809]
+[2020-06-22 14:27:10:0928] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:11:0429] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:11:0429] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:27:11:0429] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:27:11:0930] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:12:0430] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:12:0430] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[61946], HostIp[c0a8017f], HostPort[61946]
+[2020-06-22 14:27:12:0430] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:27:12:0430] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:27:12:0430] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:27:12:0931] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:14:0792] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:27:14:0792] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:27:14:0793] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[61962], devIP[c0a84809]
+[2020-06-22 14:27:15:0293] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:15:0794] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:15:0794] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:27:15:0794] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:27:16:0295] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:16:0795] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:16:0795] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[61962], HostIp[c0a8017f], HostPort[61962]
+[2020-06-22 14:27:16:0795] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:27:16:0795] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:27:16:0795] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:27:17:0296] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:19:0147] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:27:19:0147] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:27:19:0147] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[49767], devIP[c0a84809]
+[2020-06-22 14:27:19:0649] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:20:0149] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:20:0149] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:27:20:0149] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:27:20:0650] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:21:0151] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:21:0151] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[49767], HostIp[c0a8017f], HostPort[49767]
+[2020-06-22 14:27:21:0151] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:27:21:0151] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:27:21:0151] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:27:21:0651] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:23:0508] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:27:23:0508] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:27:23:0508] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[51600], devIP[c0a84809]
+[2020-06-22 14:27:24:0009] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:24:0510] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:27:24:0510] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:27:24:0510] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:29:33:0771] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:29:33:0771] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:29:33:0772] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[54773], devIP[c0a84809]
+[2020-06-22 14:29:34:0273] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:34:0774] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:34:0774] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:29:34:0774] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:29:35:0274] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:35:0775] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:35:0775] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[54773], HostIp[c0a8017f], HostPort[54773]
+[2020-06-22 14:29:35:0775] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:29:35:0775] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:29:35:0775] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:29:36:0276] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:38:0476] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:29:38:0476] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:29:38:0477] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[54532], devIP[c0a84809]
+[2020-06-22 14:29:38:0978] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:39:0479] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:39:0479] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:29:39:0479] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:29:39:0979] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:40:0480] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:40:0480] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[54532], HostIp[c0a8017f], HostPort[54532]
+[2020-06-22 14:29:40:0480] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:29:40:0480] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:29:40:0480] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:29:40:0981] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:42:0981] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:29:42:0981] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:29:42:0981] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[58668], devIP[c0a84809]
+[2020-06-22 14:29:43:0482] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:43:0982] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:43:0982] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:29:43:0982] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:29:44:0483] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:44:0984] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:44:0984] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[58668], HostIp[c0a8017f], HostPort[58668]
+[2020-06-22 14:29:44:0984] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:29:44:0984] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:29:44:0984] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:29:45:0484] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:47:0484] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:29:47:0484] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:29:47:0485] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[52272], devIP[c0a84809]
+[2020-06-22 14:29:47:0986] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:48:0486] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:48:0486] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:29:48:0486] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:29:48:0987] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:49:0487] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:49:0487] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[52272], HostIp[c0a8017f], HostPort[52272]
+[2020-06-22 14:29:49:0487] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:29:49:0487] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:29:49:0487] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:29:49:0987] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:51:0990] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:29:51:0990] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:29:51:0991] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[52306], devIP[c0a84809]
+[2020-06-22 14:29:52:0491] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:52:0991] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:52:0991] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:29:52:0991] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:29:53:0492] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:53:0992] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:53:0992] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[52306], HostIp[c0a8017f], HostPort[52306]
+[2020-06-22 14:29:53:0992] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:29:53:0992] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:29:53:0992] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:29:54:0493] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:56:0497] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-22 14:29:56:0497] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-22 14:29:56:0497] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a8017f], hostPort[58469], devIP[c0a84809]
+[2020-06-22 14:29:56:0997] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:57:0498] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:57:0498] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-22 14:29:57:0498] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-22 14:29:57:0998] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:58:0498] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-22 14:29:58:0498] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a8017f], GvspSendPort[58469], HostIp[c0a8017f], HostPort[58469]
+[2020-06-22 14:29:58:0498] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-22 14:29:58:0498] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-22 14:29:58:0498] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-22 14:29:58:0999] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:01:0165] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-23 10:17:01:0165] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-23 10:17:01:0166] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a80180], hostPort[49789], devIP[c0a88d0b]
+[2020-06-23 10:17:01:0667] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:02:0168] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:02:0168] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-23 10:17:02:0168] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-23 10:17:02:0669] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:03:0169] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:03:0169] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a80180], GvspSendPort[49789], HostIp[c0a80180], HostPort[49789]
+[2020-06-23 10:17:03:0169] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-23 10:17:03:0169] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-23 10:17:03:0169] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-23 10:17:03:0670] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:05:0799] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-23 10:17:05:0799] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-23 10:17:05:0800] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a80180], hostPort[63518], devIP[c0a88d0b]
+[2020-06-23 10:17:06:0301] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:06:0801] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:06:0801] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-23 10:17:06:0801] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-23 10:17:07:0301] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:07:0802] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:07:0802] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a80180], GvspSendPort[63518], HostIp[c0a80180], HostPort[63518]
+[2020-06-23 10:17:07:0802] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-23 10:17:07:0802] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-23 10:17:07:0802] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-23 10:17:08:0303] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:10:0305] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-23 10:17:10:0305] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-23 10:17:10:0305] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a80180], hostPort[63554], devIP[c0a88d0b]
+[2020-06-23 10:17:10:0805] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:11:0306] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:11:0306] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-23 10:17:11:0306] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-23 10:17:11:0806] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:12:0306] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:12:0306] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a80180], GvspSendPort[63554], HostIp[c0a80180], HostPort[63554]
+[2020-06-23 10:17:12:0306] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-23 10:17:12:0306] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-23 10:17:12:0306] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-23 10:17:12:0807] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:14:0808] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-23 10:17:14:0808] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-23 10:17:14:0809] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a80180], hostPort[50945], devIP[c0a88d0b]
+[2020-06-23 10:17:15:0310] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:15:0811] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:15:0811] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-23 10:17:15:0811] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-23 10:17:16:0311] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:16:0812] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:16:0812] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a80180], GvspSendPort[50945], HostIp[c0a80180], HostPort[50945]
+[2020-06-23 10:17:16:0812] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-23 10:17:16:0812] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-23 10:17:16:0812] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-23 10:17:17:0312] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:19:0316] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-23 10:17:19:0316] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-23 10:17:19:0316] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a80180], hostPort[50985], devIP[c0a88d0b]
+[2020-06-23 10:17:19:0818] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:20:0318] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:20:0318] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-23 10:17:20:0318] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-23 10:17:20:0819] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:21:0320] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:21:0320] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a80180], GvspSendPort[50985], HostIp[c0a80180], HostPort[50985]
+[2020-06-23 10:17:21:0320] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-23 10:17:21:0320] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-23 10:17:21:0320] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-23 10:17:21:0820] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:23:0825] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-23 10:17:23:0825] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-23 10:17:23:0826] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a80180], hostPort[51001], devIP[c0a88d0b]
+[2020-06-23 10:17:24:0326] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:24:0827] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:24:0827] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-23 10:17:24:0827] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-23 10:17:25:0328] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:25:0828] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:25:0828] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a80180], GvspSendPort[51001], HostIp[c0a80180], HostPort[51001]
+[2020-06-23 10:17:25:0828] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-23 10:17:25:0828] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-23 10:17:25:0828] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-23 10:17:26:0329] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:28:0328] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-23 10:17:28:0328] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-23 10:17:28:0328] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a80180], hostPort[51031], devIP[c0a88d0b]
+[2020-06-23 10:17:28:0830] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:29:0330] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:29:0330] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-23 10:17:29:0330] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-23 10:17:29:0831] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:30:0331] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:30:0331] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a80180], GvspSendPort[51031], HostIp[c0a80180], HostPort[51031]
+[2020-06-23 10:17:30:0331] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-23 10:17:30:0331] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-23 10:17:30:0331] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-23 10:17:30:0832] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:32:0834] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-23 10:17:32:0834] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-23 10:17:32:0835] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a80180], hostPort[51591], devIP[c0a88d0b]
+[2020-06-23 10:17:33:0335] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:33:0836] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:33:0836] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-23 10:17:33:0836] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-23 10:17:34:0336] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:34:0837] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:34:0837] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a80180], GvspSendPort[51591], HostIp[c0a80180], HostPort[51591]
+[2020-06-23 10:17:34:0837] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-23 10:17:34:0837] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-23 10:17:34:0837] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-23 10:17:35:0337] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:37:0338] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-23 10:17:37:0338] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-23 10:17:37:0338] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a80180], hostPort[60977], devIP[c0a88d0b]
+[2020-06-23 10:17:37:0840] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:38:0341] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:38:0341] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-23 10:17:38:0341] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-23 10:17:38:0841] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:39:0342] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:39:0342] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a80180], GvspSendPort[60977], HostIp[c0a80180], HostPort[60977]
+[2020-06-23 10:17:39:0342] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-23 10:17:39:0342] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-23 10:17:39:0342] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-23 10:17:39:0842] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:41:0844] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-23 10:17:41:0844] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-23 10:17:41:0845] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a80180], hostPort[61017], devIP[c0a88d0b]
+[2020-06-23 10:17:42:0346] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:42:0847] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:42:0847] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-23 10:17:42:0847] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-23 10:17:43:0347] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:43:0848] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:43:0848] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a80180], GvspSendPort[61017], HostIp[c0a80180], HostPort[61017]
+[2020-06-23 10:17:43:0848] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-23 10:17:43:0848] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-23 10:17:43:0848] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-23 10:17:44:0348] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:46:0350] | GigEVisionManager.cpp-L0274: driver mode start!
+[2020-06-23 10:17:46:0350] | GigEVisionManager.cpp-L0311: Driver Mode [1]
+[2020-06-23 10:17:46:0350] | GigEVisionManager.cpp-L0916: connecting device ... hostIP[c0a80180], hostPort[61034], devIP[c0a88d0b]
+[2020-06-23 10:17:46:0851] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:47:0351] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:47:0351] | GigEVisionManager.cpp-L0981: GVCP_GetAccessPrivilege [1][80000206]
+[2020-06-23 10:17:47:0351] | GigEVisionManager.cpp-L0819: connect device failed! [80000206]
+[2020-06-23 10:17:47:0851] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:48:0352] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:48:0352] | GigEVisionManager.cpp-L4976: SetTransmissionType[0], nRet[0x80000206], GvspSendIp[c0a80180], GvspSendPort[61034], HostIp[c0a80180], HostPort[61034]
+[2020-06-23 10:17:48:0352] | GigEVisionManager.cpp-L0997: disconnect device ...
+[2020-06-23 10:17:48:0352] | GigEVisionManager.cpp-L1962: SetAcquisitionStop Execute Fails Feature not present (reference not valid) : AccessException thrown (file 'NodeMapRef.h', line 416)
+[2020-06-23 10:17:48:0352] | GigEVisionManager.cpp-L2577: AppGetCount[0], AppGetCountSucceed[0], ExpectRecv[0], NetRecv[0], ThrowAbnormalImage[0], NetLostFrame[0], ThrowInBufList[0], LostPackets[0]
+[2020-06-23 10:17:48:0852] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!
+[2020-06-23 10:17:49:0353] |   GigEVisionGVCP.cpp-L1638: gvcp UDP_ReadnTimeout nRequestTimeOut[500000], return[0]!

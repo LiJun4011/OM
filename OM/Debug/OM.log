@@ -1,0 +1,30 @@
+﻿  Reading Qt configuration (D:\SoftWare\qt-unified-windows-x86-online\5.15.0\msvc2019\bin\qmake.exe)
+  uic OM.ui
+  uic RelayControl.ui
+  rcc OM.qrc
+  moc OM.h
+   RCC: Warning: No resources in 'E:\projects\OM\Upper Computer Operate\Code\OM\OM.qrc'.
+  moc mythread.h
+  moc RelayControl.h
+  cmyini.cpp
+  main.cpp
+  MyCamera.cpp
+  mythread.cpp
+  OM.cpp
+  RelayControl.cpp
+E:\projects\OM\Upper Computer Operate\Code\RelyFile\MV\MyCamera.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+E:\projects\OM\Upper Computer Operate\Code\RelyFile\MV\MyCamera.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 OM.cpp)
+E:\projects\OM\Upper Computer Operate\Code\RelyFile\HiSDK\include\hi_sdk_api.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 main.cpp)
+E:\projects\OM\Upper Computer Operate\Code\RelyFile\HiSDK\include\hi_sdk_api.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 OM.cpp)
+E:\projects\OM\Upper Computer Operate\Code\OM\OM.cpp(2237,25): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+E:\projects\OM\Upper Computer Operate\Code\OM\OM.cpp(2259,25): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+E:\projects\OM\Upper Computer Operate\Code\OM\OM.cpp(2281,25): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+E:\projects\OM\Upper Computer Operate\Code\OM\OM.cpp(2287,27): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+E:\projects\OM\Upper Computer Operate\Code\OM\OM.cpp(2339,11): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+  qrc_OM.cpp
+  moc_OM.cpp
+  moc_mythread.cpp
+  moc_RelayControl.cpp
+E:\projects\OM\Upper Computer Operate\Code\RelyFile\MV\MyCamera.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Debug\\moc\moc_OM.cpp)
+E:\projects\OM\Upper Computer Operate\Code\RelyFile\HiSDK\include\hi_sdk_api.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 Debug\\moc\moc_OM.cpp)
+  OM.vcxproj -> E:\projects\OM\Upper Computer Operate\Code\Debug\OM.exe
